@@ -20,7 +20,7 @@ from matplotlib import pyplot as plt
 import cv2
 
 class gaborFilter:
-    def __init__(self, thetaInc=15, omegaInc = 0.4, K=np.pi,filterSize = (32,32),func = 'cos'):
+    def __init__(self, thetaInc=15, omegaInc = 0.4, K=np.pi, filterSize = (32,32),func = 'cos'):
         self.thetaInc = thetaInc
         self.omegaStart = 0.7
         self.omegaEnd = 1.5
